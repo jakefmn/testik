@@ -1,0 +1,7 @@
+a = int(input())
+b = []
+for i in range(1, a+1):
+    b.append(i)
+for i in b:
+    if i %3 == 0:
+        print(i)

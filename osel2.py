@@ -1,0 +1,7 @@
+osloyarsk = [69, 228, 52, 42, 37, 7]
+s = 0
+paro = 1
+for i in osloyarsk:
+    s += i
+    paro = i * paro
+print(s, paro)
